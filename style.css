@@ -332,11 +332,12 @@ section {
 /* SKILLS SECTION */
 
 #skills {
-    display: flex;
+    display: flex; 
     flex-direction: column;
+    /* justify-content: left; */
     align-items: center;
     padding: 4vh 0;
-    text-align: center; /* Center text within the section */
+    text-align: center; /*Center text within the section */
 }
 
 .section__text__p1 {
@@ -362,7 +363,8 @@ section {
 
 .skills-details-container{
     display: flex;
-    justify-content: center;
+    
+    justify-content: left;
     flex-direction: column;
 }
 
@@ -370,6 +372,7 @@ section {
     display: flex;
     text-align: initial;
     flex-wrap: wrap;
+    /* width: 1000px; */
     flex-direction: row;
     gap: 2.5rem;
     justify-content: space-around;
@@ -378,7 +381,7 @@ section {
 article{
     display: flex;
     width: 22rem;
-    justify-content: space-around;
+    justify-content: left;
     gap: 0.5rem;
 }
 
