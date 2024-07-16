@@ -380,7 +380,8 @@ section {
 
 article{
     display: flex;
-    width: 22rem;
+    margin-left: 5px;
+    width: 17rem;
     justify-content: left;
     gap: 0.5rem;
 }
