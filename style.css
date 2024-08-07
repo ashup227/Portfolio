@@ -191,7 +191,8 @@ section {
 }
 
 .section__text p1 {
-    text-align: center;
+    text-align: left ;
+    bottom: 33%;
 }
 
 .section__text p2 {
